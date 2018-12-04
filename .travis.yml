@@ -12,6 +12,9 @@ before_install:
 env:
   - FIREBASE_KEY=AIzaSyDU7I6pnN322BvRNN24jRX52owAvuHH1K4
 
+install: true
+script: mvn verify -B
+
 jdk:
   - openjdk8
 #   - openjdk9
